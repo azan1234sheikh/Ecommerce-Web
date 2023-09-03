@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductContext from './context/ProductContext.jsx';
+import ProductContext from "../Context/ProductContext.jsx"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Header from './components/Header';
