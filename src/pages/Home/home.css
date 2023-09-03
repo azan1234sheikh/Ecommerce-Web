@@ -1,0 +1,32 @@
+img {
+  width: 100px;
+  height: 80px;
+ 
+}
+
+.productWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.productCard {
+  box-shadow: 0 0 4px 4px #de3535;
+}
+
+.productText {
+  padding: 10px;
+  object-fit: cover;
+}
+    
+.cardRoot {
+  width: 100px;
+}
+.logo{
+  
+  width: 200px;
+
+}
+.Root{
+  background-color: whitesmoke
+}
