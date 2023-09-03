@@ -7,7 +7,7 @@ import Product from './pages/product'; // Make sure the case matches the actual 
 import Cart from './pages/Cart';
 import { CartContainer } from './Context/CartContext';
 import AddProduct from './pages/addProduct';
-import { ProductContainer } from '../Context/ProductContext.jsx';
+import ProductContainer from './ProductContext.jsx';
 import Login from './pages/login';
 import Orders from './pages/addorder';
 import OrderForm from './pages/addorder';
