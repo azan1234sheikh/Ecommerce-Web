@@ -1,5 +1,4 @@
 import React from 'react';
-import ProductContext from "../Context/ProductContext.jsx"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Header from './components/Header';
@@ -8,7 +7,7 @@ import Product from './pages/product'; // Make sure the case matches the actual 
 import Cart from './pages/Cart';
 import { CartContainer } from './Context/CartContext';
 import AddProduct from './pages/addProduct';
-import { ProductContainer } from './context/ProductContext.jsx';
+import { ProductContainer } from '../Context/ProductContext.jsx';
 import Login from './pages/login';
 import Orders from './pages/addorder';
 import OrderForm from './pages/addorder';
